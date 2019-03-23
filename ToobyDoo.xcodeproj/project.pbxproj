@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB0FF772246814900039A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB0FF762246814900039A4E /* AppDelegate.swift */; };
+		EFB0FF792246814900039A4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB0FF782246814900039A4E /* ViewController.swift */; };
+		EFB0FF7C2246814900039A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB0FF7A2246814900039A4E /* Main.storyboard */; };
+		EFB0FF7E2246814A00039A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB0FF7D2246814A00039A4E /* Assets.xcassets */; };
+		EFB0FF812246814A00039A4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB0FF7F2246814A00039A4E /* LaunchScreen.storyboard */; };
+		EFB0FF8C2246814A00039A4E /* ToobyDooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB0FF8B2246814A00039A4E /* ToobyDooTests.swift */; };
+		EFB0FF972246814A00039A4E /* ToobyDooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB0FF962246814A00039A4E /* ToobyDooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB0FF882246814A00039A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB0FF6B2246814900039A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB0FF722246814900039A4E;
+			remoteInfo = ToobyDoo;
+		};
+		EFB0FF932246814A00039A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB0FF6B2246814900039A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB0FF722246814900039A4E;
+			remoteInfo = ToobyDoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB0FF732246814900039A4E /* ToobyDoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToobyDoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB0FF762246814900039A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFB0FF782246814900039A4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFB0FF7B2246814900039A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB0FF7D2246814A00039A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB0FF802246814A00039A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB0FF822246814A00039A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB0FF872246814A00039A4E /* ToobyDooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToobyDooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB0FF8B2246814A00039A4E /* ToobyDooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToobyDooTests.swift; sourceTree = "<group>"; };
+		EFB0FF8D2246814A00039A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB0FF922246814A00039A4E /* ToobyDooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToobyDooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB0FF962246814A00039A4E /* ToobyDooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToobyDooUITests.swift; sourceTree = "<group>"; };
+		EFB0FF982246814A00039A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB0FF702246814900039A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB0FF842246814A00039A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB0FF8F2246814A00039A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB0FF6A2246814900039A4E = {
+			isa = PBXGroup;
+			children = (
+				EFB0FF752246814900039A4E /* ToobyDoo */,
+				EFB0FF8A2246814A00039A4E /* ToobyDooTests */,
+				EFB0FF952246814A00039A4E /* ToobyDooUITests */,
+				EFB0FF742246814900039A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB0FF742246814900039A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB0FF732246814900039A4E /* ToobyDoo.app */,
+				EFB0FF872246814A00039A4E /* ToobyDooTests.xctest */,
+				EFB0FF922246814A00039A4E /* ToobyDooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB0FF752246814900039A4E /* ToobyDoo */ = {
+			isa = PBXGroup;
+			children = (
+				EFB0FF762246814900039A4E /* AppDelegate.swift */,
+				EFB0FF782246814900039A4E /* ViewController.swift */,
+				EFB0FF7A2246814900039A4E /* Main.storyboard */,
+				EFB0FF7D2246814A00039A4E /* Assets.xcassets */,
+				EFB0FF7F2246814A00039A4E /* LaunchScreen.storyboard */,
+				EFB0FF822246814A00039A4E /* Info.plist */,
+			);
+			path = ToobyDoo;
+			sourceTree = "<group>";
+		};
+		EFB0FF8A2246814A00039A4E /* ToobyDooTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB0FF8B2246814A00039A4E /* ToobyDooTests.swift */,
+				EFB0FF8D2246814A00039A4E /* Info.plist */,
+			);
+			path = ToobyDooTests;
+			sourceTree = "<group>";
+		};
+		EFB0FF952246814A00039A4E /* ToobyDooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB0FF962246814A00039A4E /* ToobyDooUITests.swift */,
+				EFB0FF982246814A00039A4E /* Info.plist */,
+			);
+			path = ToobyDooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB0FF722246814900039A4E /* ToobyDoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB0FF9B2246814A00039A4E /* Build configuration list for PBXNativeTarget "ToobyDoo" */;
+			buildPhases = (
+				EFB0FF6F2246814900039A4E /* Sources */,
+				EFB0FF702246814900039A4E /* Frameworks */,
+				EFB0FF712246814900039A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToobyDoo;
+			productName = ToobyDoo;
+			productReference = EFB0FF732246814900039A4E /* ToobyDoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB0FF862246814A00039A4E /* ToobyDooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB0FF9E2246814A00039A4E /* Build configuration list for PBXNativeTarget "ToobyDooTests" */;
+			buildPhases = (
+				EFB0FF832246814A00039A4E /* Sources */,
+				EFB0FF842246814A00039A4E /* Frameworks */,
+				EFB0FF852246814A00039A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB0FF892246814A00039A4E /* PBXTargetDependency */,
+			);
+			name = ToobyDooTests;
+			productName = ToobyDooTests;
+			productReference = EFB0FF872246814A00039A4E /* ToobyDooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB0FF912246814A00039A4E /* ToobyDooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB0FFA12246814A00039A4E /* Build configuration list for PBXNativeTarget "ToobyDooUITests" */;
+			buildPhases = (
+				EFB0FF8E2246814A00039A4E /* Sources */,
+				EFB0FF8F2246814A00039A4E /* Frameworks */,
+				EFB0FF902246814A00039A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB0FF942246814A00039A4E /* PBXTargetDependency */,
+			);
+			name = ToobyDooUITests;
+			productName = ToobyDooUITests;
+			productReference = EFB0FF922246814A00039A4E /* ToobyDooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB0FF6B2246814900039A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hannah Leland";
+				TargetAttributes = {
+					EFB0FF722246814900039A4E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EFB0FF862246814A00039A4E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EFB0FF722246814900039A4E;
+					};
+					EFB0FF912246814A00039A4E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EFB0FF722246814900039A4E;
+					};
+				};
+			};
+			buildConfigurationList = EFB0FF6E2246814900039A4E /* Build configuration list for PBXProject "ToobyDoo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB0FF6A2246814900039A4E;
+			productRefGroup = EFB0FF742246814900039A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB0FF722246814900039A4E /* ToobyDoo */,
+				EFB0FF862246814A00039A4E /* ToobyDooTests */,
+				EFB0FF912246814A00039A4E /* ToobyDooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB0FF712246814900039A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB0FF812246814A00039A4E /* LaunchScreen.storyboard in Resources */,
+				EFB0FF7E2246814A00039A4E /* Assets.xcassets in Resources */,
+				EFB0FF7C2246814900039A4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB0FF852246814A00039A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB0FF902246814A00039A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB0FF6F2246814900039A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB0FF792246814900039A4E /* ViewController.swift in Sources */,
+				EFB0FF772246814900039A4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB0FF832246814A00039A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB0FF8C2246814A00039A4E /* ToobyDooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB0FF8E2246814A00039A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB0FF972246814A00039A4E /* ToobyDooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB0FF892246814A00039A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB0FF722246814900039A4E /* ToobyDoo */;
+			targetProxy = EFB0FF882246814A00039A4E /* PBXContainerItemProxy */;
+		};
+		EFB0FF942246814A00039A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB0FF722246814900039A4E /* ToobyDoo */;
+			targetProxy = EFB0FF932246814A00039A4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB0FF7A2246814900039A4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB0FF7B2246814900039A4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB0FF7F2246814A00039A4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB0FF802246814A00039A4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB0FF992246814A00039A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFB0FF9A2246814A00039A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB0FF9C2246814A00039A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ToobyDoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ToobyDoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB0FF9D2246814A00039A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ToobyDoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ToobyDoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFB0FF9F2246814A00039A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ToobyDooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ToobyDooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToobyDoo.app/ToobyDoo";
+			};
+			name = Debug;
+		};
+		EFB0FFA02246814A00039A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ToobyDooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ToobyDooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToobyDoo.app/ToobyDoo";
+			};
+			name = Release;
+		};
+		EFB0FFA22246814A00039A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ToobyDooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ToobyDooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToobyDoo;
+			};
+			name = Debug;
+		};
+		EFB0FFA32246814A00039A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ToobyDooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ToobyDooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToobyDoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB0FF6E2246814900039A4E /* Build configuration list for PBXProject "ToobyDoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB0FF992246814A00039A4E /* Debug */,
+				EFB0FF9A2246814A00039A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB0FF9B2246814A00039A4E /* Build configuration list for PBXNativeTarget "ToobyDoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB0FF9C2246814A00039A4E /* Debug */,
+				EFB0FF9D2246814A00039A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB0FF9E2246814A00039A4E /* Build configuration list for PBXNativeTarget "ToobyDooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB0FF9F2246814A00039A4E /* Debug */,
+				EFB0FFA02246814A00039A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB0FFA12246814A00039A4E /* Build configuration list for PBXNativeTarget "ToobyDooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB0FFA22246814A00039A4E /* Debug */,
+				EFB0FFA32246814A00039A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB0FF6B2246814900039A4E /* Project object */;
+}
